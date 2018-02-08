@@ -13,6 +13,7 @@
 #include "vbm.h"
 #include "LoadShaders.h"
 
+#include <cstring>
 #include <stdio.h>
 #include <string>
 

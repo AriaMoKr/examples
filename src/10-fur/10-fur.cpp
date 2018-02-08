@@ -11,6 +11,7 @@
 
 #include "vmath.h"
 
+#include <cstring>
 #include <stdio.h>
 #include <stdlib.h>
 
