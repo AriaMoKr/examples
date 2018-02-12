@@ -273,6 +273,9 @@ int main(int argc, char** argv)
     if (!glfwInit())
         exit(EXIT_FAILURE);
 
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 5);
+
     while ((ch = getopt_long(argc, argv, "a:b:dfhlm:n:p:s:v", options, NULL)) != -1)
     {
         switch (ch)

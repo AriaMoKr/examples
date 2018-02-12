@@ -86,6 +86,9 @@ main( int argc, char** argv )
 {
     glfwInit();
 
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 5);
+
     GLFWwindow* window = glfwCreateWindow(800, 600, "Triangles", NULL, NULL);
 
     glfwMakeContextCurrent(window);
